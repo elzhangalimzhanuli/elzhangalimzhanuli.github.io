@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+}
+img{
+    height: 95;
+    width: 100;
+    position: relative;
+    bottom:3px;
+    z-index: 3
+}
+.logo{
+    width:300px;
+    
+}
+.navbar {
+    position: relative;
+    bottom:101.5px;
+    height: 95px;
+    background-color: yellow;
+    width: 100%;
+}
+.navbar a {
+    padding: 35px 35px;
+        float:right  ;
+     color: black; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   
+}
+
+ .navbar  a:hover {
+     color:aliceblue;
+    background-color: red; 
+     
+   }
+body{width: 1200px;}
